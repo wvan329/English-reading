@@ -15,4 +15,8 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
+  // Vite 专用配置项
+  base: process.env.NODE_ENV === 'production'
+    ? '/English-reading/'  // 生产环境路径
+    : '/' 
 })
