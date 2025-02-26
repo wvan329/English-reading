@@ -1,4 +1,4 @@
-name: Deploy Vue 3 to GitHub Pages
+name: Deploy Vue3 to GitHub Pages
 
 on:
   push:
@@ -15,30 +15,30 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Build job
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          node-version: '18'  # 你可以根据项目需要调整 Node 版本
+          node-version: '18' # 根据你的项目需求调整版本
 
       - name: Install dependencies
-        run: npm install  # 使用 yarn install 如果你使用的是 yarn
+        run: npm install
 
-      - name: Build the project
-        run: npm run build  # 使用 npm run build 或 yarn build 取决于你使用的包管理工具
+      - name: Build Project
+        run: npm run build
+        env:
+          NODE_ENV: production
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist  # Vue 项目默认会把构建后的文件输出到 `dist` 文件夹
+          path: dist # Vue3 默认构建输出目录
 
-  # Deployment job
   deploy:
     environment:
       name: github-pages
@@ -49,6 +49,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          branch: gh-pages  # 部署到 gh-pages 分支
-          folder: ./dist    # 部署 dist 文件夹到 GitHub Pages
