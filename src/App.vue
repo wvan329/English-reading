@@ -110,7 +110,93 @@ const text = [
     "english": "Variety show marathons: Psychological dialysis sessions",
     "detail": "【dialysis /daɪˈæləsɪs/ 透析】、【psychological /ˌsaɪkəˈlɑdʒɪkəl/ 心理的】",
     "explain": "将追综艺比作医疗行为，幽默揭示当代人的解压刚需"
-  }
+  },
+  {
+    "chinese": "电子咸鱼：赛博二手市场人类学📱🐟",
+    "english": "Digital yard sale: Anthropological study of e-hoarders",
+    "detail": "【anthropological /ˌænθrəpəˈlɑdʒɪkl/ 人类学的】、【hoarders /ˈhɔrdərz/ 囤积者】",
+    "explain": "将闲鱼交易上升为学术研究，调侃当代人「断舍离」困境"
+  },
+  {
+    "chinese": "智能手表：打工人生理监控手铐⌚🔗",
+    "english": "Smartwatch tyranny: Corporate biodata extraction device",
+    "detail": "【tyranny /ˈtɪrəni/ 暴政】、【biodata /ˈbaɪoʊˌdeɪtə/ 生物数据】",
+    "explain": "用科幻概念包装健康监测，揭示职场隐形管控"
+  },
+  {
+    "chinese": "自拍杆外交：游客界的权游📸⚔️",
+    "english": "Selfie stick diplomacy: Game of Thrones at scenic spots",
+    "detail": "【diplomacy /dɪˈploʊməsi/ 外交】、【scenic spots /ˈsiːnɪk spɑts/ 景点】",
+    "explain": "将景点抢位比作权力游戏，夸张表现游客竞争"
+  },
+  {
+    "chinese": "空调续命：现代人类环境驯化史❄️🌍",
+    "english": "AC survivalism: Humanity's thermal evolution reboot",
+    "detail": "【survivalism /sərˈvaɪvəlɪzəm/ 生存主义】、【thermal /ˈθɜrməl/ 热力的】",
+    "explain": "把空调使用升格为人类进化史，制造科学纪录片既视感"
+  },
+  {
+    "chinese": "弹幕护体：社恐观影能量盾🛡️🎥",
+    "english": "Bullet curtain armor: Introverts' cinematic force field",
+    "detail": "【bullet curtain /ˈbʊlɪt ˈkɜrtn/ 弹幕】、【force field /fɔrs fild/ 力场】",
+    "explain": "用军事术语包装互动功能，精准击中社恐观影心理"
+  },
+  {
+    "chinese": "外卖盲盒：打工人饮食量子态🍱🎲",
+    "english": "Takeout roulette: Schrödinger's lunchbox experience",
+    "detail": "【roulette /ruˈlɛt/ 轮盘赌】、【Schrödinger's /ˈʃroʊdɪŋərz/ 薛定谔的】",
+    "explain": "融合物理概念，吐槽外卖质量的不确定性"
+  },
+  {
+    "chinese": "美颜滤镜：赛博画皮4.0升级版💄📲",
+    "english": "AI cosmetology: Digital skin-grafting technology",
+    "detail": "【cosmetology /ˌkɑzməˈtɑlədʒi/ 美容学】、【grafting /ˈɡræftɪŋ/ 移植】",
+    "explain": "用医学术语解构美颜功能，揭示数字时代的容貌焦虑"
+  },
+  {
+    "chinese": "刷短视频：当代人类注意力碎片化实验📱🧩",
+    "english": "Scrolling syndrome: Digital dopamine surfing clinical trial",
+    "detail": "【syndrome /ˈsɪndroʊm/ 综合征】、【dopamine /ˈdoʊpəˌmin/ 多巴胺】、【clinical trial /ˈklɪnɪkəl traɪəl/ 临床试验】",
+    "explain": "将刷手机行为医学化，揭露现代人注意力分散的病理特征"
+  },
+  {
+    "chinese": "智能推荐：算法读心术实践现场🤖🔮",
+    "english": "AI mind-reading: Algorithmic crystal ball engineering",
+    "detail": "【algorithmic /ˌælɡəˈrɪðmɪk/ 算法的】、【crystal ball /ˈkrɪstl bɔl/ 水晶球】",
+    "explain": "用神秘学包装大数据推荐，调侃科技「比你更懂你」的恐怖"
+  },
+  {
+    "chinese": "云监工：赛博时代远程养殖学👷♂️☁️",
+    "english": "Live-stream supervision: Virtual shepherding 4.0",
+    "detail": "【supervision /ˌsuːpərˈvɪʒən/ 监督】、【shepherding /ˈʃɛpərdɪŋ/ 放牧】",
+    "explain": "将网络围观比作数字放牧，幽默解构现代人的无聊经济"
+  },
+  {
+    "chinese": "空气炸锅菜谱：厨房量子力学实践指南🍟⚛️",
+    "english": "Air fryer alchemy: Culinary particle accelerator manual",
+    "detail": "【alchemy /ˈælkəmi/ 炼金术】、【particle accelerator /ˈpɑrtɪkl ækˈsɛləreɪtər/ 粒子加速器】",
+    "explain": "用物理概念包装炸薯条，制造实验室烹饪的荒诞感"
+  },
+  {
+    "chinese": "在线会议：打工人全息投影生存指南💻👻",
+    "english": "Zoom existence: Holographic survival simulation",
+    "detail": "【holographic /ˌhɑləˈɡræfɪk/ 全息】、【simulation /ˌsɪmjʊˈleɪʃən/ 模拟】",
+    "explain": "将视频会议升维成虚拟生存，吐槽远程办公的真实感缺失"
+  },
+  {
+    "chinese": "快递驿站：当代物流人类学田野调查📦🏃♂️",
+    "english": "Parcel anthropology: Amazon tribe migration study",
+    "detail": "【anthropology /ˌænθrəˈpɑlədʒi/ 人类学】、【migration /maɪˈɡreɪʃən/ 迁徙】",
+    "explain": "用学术研究包装取快递，调侃网购族的集体行为模式"
+  },
+  {
+    "chinese": "手机电量焦虑：数字时代新型恐血症🔋😱",
+    "english": "Battery hemophobia: 21st-century techno-anxiety",
+    "detail": "【hemophobia /ˌhiːməˈfoʊbiə/ 恐血症】、【techno-anxiety /ˈtɛknoʊ æŋˈzaɪəti/ 科技焦虑】",
+    "explain": "将低电量恐慌类比血液流失，黑色幽默揭示现代依赖症"
+  },
+
+
 ];
 
 const read = ref("");
