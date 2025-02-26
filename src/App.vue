@@ -1,45 +1,51 @@
 <script setup>
-import { ref } from 'vue'
+import { ref } from "vue";
 
 const items = [
-  { text: '"The only way to do great work is to love what you do." — Steve Jobs（做伟大工作的唯一方式是热爱你所做的事情。）"' },
-  { text: '"Success is not final, failure is not fatal: It is the courage to continue that counts." — Winston Churchill（成功不是终点，失败不是致命的：重要的是继续前行的勇气。）'},
-  { text: '"You miss 100% of the shots you don’t take." — Wayne Gretzky（你错过的每一次机会，都是你没抓住的100%的机会。）'},
+  {
+    text: '"The only way to do great work is to love what you do." — Steve Jobs（做伟大工作的唯一方式是热爱你所做的事情。）"',
+  },
+  {
+    text: '"Success is not final, failure is not fatal: It is the courage to continue that counts." — Winston Churchill（成功不是终点，失败不是致命的：重要的是继续前行的勇气。）',
+  },
+  {
+    text: '"You miss 100% of the shots you don’t take." — Wayne Gretzky（你错过的每一次机会，都是你没抓住的100%的机会。）',
+  },
   // 添加更多卡片数据...
-]
-const currentIndex = ref(0)
-const startX = ref(0)
-const offsetX = ref(0)
-const isAnimating = ref(false)
+];
+const currentIndex = ref(0);
+const startX = ref(0);
+const offsetX = ref(0);
+const isAnimating = ref(false);
 
 function handleTouchStart(e) {
-  isAnimating.value = false
-  startX.value = e.touches[0].clientX
+  isAnimating.value = false;
+  startX.value = e.touches[0].clientX;
 }
 
 function handleTouchMove(e) {
-  if (isAnimating.value) return
-  const currentX = e.touches[0].clientX
-  offsetX.value = currentX - startX.value
+  if (isAnimating.value) return;
+  const currentX = e.touches[0].clientX;
+  offsetX.value = currentX - startX.value;
 }
 
 function handleTouchEnd() {
-  if (isAnimating.value) return
-  const threshold = window.innerWidth * 0.3
+  if (isAnimating.value) return;
+  const threshold = window.innerWidth * 0.3;
 
   if (Math.abs(offsetX.value) > threshold) {
-    isAnimating.value = true
+    isAnimating.value = true;
     if (offsetX.value > 0 && currentIndex.value > 0) {
       // 向右滑动
-      currentIndex.value--
+      currentIndex.value--;
     } else if (offsetX.value < 0 && currentIndex.value < items.length - 1) {
       // 向左滑动
-      currentIndex.value++
+      currentIndex.value++;
     }
   }
 
-  offsetX.value = 0
-  setTimeout(() => isAnimating.value = false, 300)
+  offsetX.value = 0;
+  setTimeout(() => (isAnimating.value = false), 300);
 }
 </script>
 
@@ -120,5 +126,4 @@ h1 {
   margin-bottom: 20px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
-
 </style>
