@@ -8,6 +8,7 @@ const text = fileContent;
 
 const read = ref("");
 
+
 const refresh = () => {
   const randomIndex = Math.floor(Math.random() * text.length);
   read.value = text[randomIndex];
@@ -15,11 +16,9 @@ const refresh = () => {
 
 // 组件挂载时选择随机元素
 onMounted(() => {
-  if (text.length > 0) {
-    const randomIndex = Math.floor(Math.random() * text.length);
-    read.value = text[randomIndex];
-  }
+  refresh();
 });
+
 </script>
 <template>
   <div class="container">
@@ -119,8 +118,8 @@ onMounted(() => {
 
 .refresh-btn {
   position: fixed; /* 固定定位 */
-  bottom: 20px;    /* 距离底部20px */
-  left: 50%;       /* 水平居中 */
+  bottom: 20px; /* 距离底部20px */
+  left: 50%; /* 水平居中 */
   transform: translateX(-50%);
   display: block;
   width: 200px;
@@ -135,5 +134,4 @@ onMounted(() => {
   transition: all 0.3s ease;
   box-shadow: 0 4px 15px rgba(116, 185, 255, 0.3);
 }
-
 </style>
