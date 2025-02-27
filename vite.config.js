@@ -16,7 +16,7 @@ export default defineConfig({
     },
   },
   // Vite 专用配置项
-  base: process.env.NODE_ENV === 'production'
-    ? '/English-reading/'  // 生产环境路径
-    : '/' 
+  // base: process.env.NODE_ENV === 'production'
+  //   ? '/English-reading/'  // 生产环境路径
+  //   : '/' 
 })
