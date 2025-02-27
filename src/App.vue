@@ -126,7 +126,7 @@ onMounted(() => {
   width: 200px;
   margin: 0rem auto 0;
   padding: 1rem 2rem;
-  background: #74b9ff;
+  background: #3d8bdb;
   color: white;
   border: none;
   border-radius: 50px;
@@ -136,8 +136,4 @@ onMounted(() => {
   box-shadow: 0 4px 15px rgba(116, 185, 255, 0.3);
 }
 
-.refresh-btn:hover {
-  background: #3d8bdb;
-  box-shadow: 0 6px 20px rgba(116, 185, 255, 0.5);
-}
 </style>
