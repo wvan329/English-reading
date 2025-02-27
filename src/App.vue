@@ -52,12 +52,15 @@ onMounted(() => {
 .container {
   background: white;
   box-shadow: 0 10px 30px rgba(173, 173, 159, 0.947);
+  min-height: 100vh; /* 确保容器至少充满整个视窗 */
+  padding-bottom: 100px; /* 为按钮留出空间，避免内容被遮挡 */
 }
 
 .sentence-box {
   background: white;
   border: 1px solid #e9ecef;
   border-left: 6px solid lightcoral;
+  padding-top: 0.5rem;
   padding-left: 1rem;
   padding-bottom: 0.5rem;
 }
@@ -115,6 +118,10 @@ onMounted(() => {
 }
 
 .refresh-btn {
+  position: fixed; /* 固定定位 */
+  bottom: 20px;    /* 距离底部20px */
+  left: 50%;       /* 水平居中 */
+  transform: translateX(-50%);
   display: block;
   width: 200px;
   margin: 0rem auto 0;
@@ -131,7 +138,6 @@ onMounted(() => {
 
 .refresh-btn:hover {
   background: #3d8bdb;
-  transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(116, 185, 255, 0.5);
 }
 </style>
