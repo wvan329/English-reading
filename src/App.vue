@@ -32,7 +32,7 @@ onMounted(() => {
 
     <div class="translation-box">
       <div class="translation-text" v-for="(item,index) in read.translation" :key="index">
-        <div v-if="index%2==0">{{item}}</div>
+        <div v-if="index%2==1">{{item}}</div>
         <div v-else class="color">{{item}}</div>
       </div>
     </div>
@@ -71,7 +71,7 @@ onMounted(() => {
 .sentence-text {
   padding-top: 1rem;
   color: black;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   line-height: 1.4;
   /* padding: 0.5rem; */
 }
@@ -88,7 +88,8 @@ onMounted(() => {
 .translation-text {
   color: #2d3436;
   line-height: 1.5;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  padding-right: 0.2rem;
 }
 
 .color {
@@ -107,7 +108,7 @@ onMounted(() => {
 
 .knowledge-text {
   color: #2d3436;
-  font-size: 1rem;
+  font-size: 1.2rem;
   background: #e9ecef;
   line-height: 1.2;
   padding: 0.1rem;
