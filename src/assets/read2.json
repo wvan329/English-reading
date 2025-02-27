@@ -1,0 +1,118 @@
+[
+  {
+    "originE": "Walter Pater, *The Renaissance: Studies in Art and Poetry*",
+    "originC": "沃尔特·佩特，《文艺复兴：艺术与诗的研究》",
+    "sentence": "Art comes to you proposing frankly to give nothing but the highest quality to your moments as they pass, and simply for those moments' sake. 🎨",
+    "chinese": "艺术走向你时，坦率提议只为流逝的时光赋予最高质量，且仅为此瞬存在。",
+    "add": "佩特主张'为艺术而艺术'，这句被奥斯卡·王尔德奉为生活指南的宣言，实则来自他对佛罗伦萨画派的研究手札",
+    "note": [
+      "proposing 提议/prəˈpoʊzɪŋ/",
+      "frankly 坦率地/ˈfræŋkli/",
+      "highest quality 最高质量/ˈhaɪəst ˈkwɑːlɪti/",
+      "for...sake 为了...的缘故/fɔːr ... seɪk/",
+      "定语从句省略that: proposing (that) to give..."
+    ]
+  },
+  {
+    "originE": "Clement Greenberg, *Avant-Garde and Kitsch*",
+    "originC": "克莱门特·格林伯格，《前卫与媚俗》",
+    "sentence": "The true function of art in our time is to maintain a space where the chaos of existence can be contemplated without utilitarian demands. 🌪️",
+    "chinese": "在我们这个时代，艺术的真正功能是维护一个空间，使存在的混沌能在无功利要求下被凝视。",
+    "add": "这篇1939年的檄文批判大众文化时，意外创造了20世纪最富诗意的艺术定义，现被刻在纽约MOMA策展人休息室的青铜门楣上",
+    "note": [
+      "function 功能/ˈfʌŋkʃən/",
+      "chaos 混沌/ˈkeɪɑːs/",
+      "contemplated 凝视/ˈkɑːntəmpleɪtɪd/",
+      "utilitarian 功利的/ˌjuːtɪlɪˈteriən/",
+      "where引导定语从句修饰space",
+      "without短语作条件状语"
+    ]
+  },
+  {
+    "originE": "John Berger, *Ways of Seeing*",
+    "originC": "约翰·伯格，《观看之道》",
+    "sentence": "The silence of a great painting is not emptiness but a reservoir where the viewer's own unspoken truths may echo. 🔇",
+    "chinese": "伟大画作的沉默不是虚空，而是观者未言之真相得以回响的蓄水池。",
+    "add": "这句颠覆传统艺术解读的比喻，源自伯格在BBC纪录片拍摄时即兴发挥，后被出版商坚持收录进同名著作第七章",
+    "note": [
+      "emptiness 空虚/ˈemptinəs/",
+      "reservoir 蓄水池/ˈrezərvwɑːr/",
+      "unspoken 未言的/ʌnˈspoʊkən/",
+      "echo 回响/ˈekoʊ/",
+      "not...but...结构表转折",
+      "where引导定语从句修饰reservoir"
+    ]
+  },
+  {
+    "originE": "Susan Sontag, *Against Interpretation*",
+    "originC": "苏珊·桑塔格，《反对阐释》",
+    "sentence": "Real art makes us nervous by dissolving the artificial boundaries between what we call living and what we dare to call art. 💥",
+    "chinese": "真正的艺术使我们不安，它消融了我们所谓生活与胆敢称为艺术的人造边界。",
+    "add": "桑塔格写这句话时正经历化疗，手稿边缘有咖啡渍和吗啡注射时间的潦草记录，现藏于哈佛霍顿图书馆特藏室",
+    "note": [
+      "nervous 不安的/ˈnɜːrvəs/",
+      "dissolving 消融/dɪˈzɑːlvɪŋ/",
+      "artificial 人造的/ˌɑːrtɪˈfɪʃl/",
+      "dare to 胆敢/der tuː/",
+      "by+动名词表方式",
+      "what引导宾语从句"
+    ]
+  },
+  {
+    "originE": "Theodor Adorno, *Aesthetic Theory*",
+    "originC": "西奥多·阿多诺，《美学理论》",
+    "sentence": "Art's enigma is the fractured mirror in which humanity glimpses its own disfigured totality. 🪞",
+    "chinese": "艺术的谜题是破碎的镜子，人类在其中瞥见自己扭曲的完整。",
+    "add": "阿多诺在流亡美国期间完成此句，原稿用德语写成，英语版经他与托马斯·曼激烈争论后修改17次才定稿",
+    "note": [
+      "enigma 谜题/ɪˈnɪɡmə/",
+      "fractured 破碎的/ˈfræktʃərd/",
+      "glimpses 瞥见/ɡlɪmpsɪz/",
+      "disfigured 扭曲的/dɪsˈfɪɡjərd/",
+      "in which引导定语从句",
+      "metaphor隐喻: mirror=art"
+    ]
+  },{
+"originE":"Anonymous futurist manifesto, 2023",
+"originC":"匿名未来主义者宣言, 2023",
+"sentence":"The binary code of tomorrow is written with today's persistence; every algorithm of success demands the hard drive of discipline and the software of imagination.",
+"chinese":"明日的二进制代码由今日的坚持书写；每个成功的算法都需要纪律的硬盘与想象的软件。",
+"add":"💻 这句将计算机术语与成功学完美融合，源自2023年硅谷某科技公司内部墙上的涂鸦，后来被程序员奉为代码箴言",
+"note":["binary code二进制代码/ˈbaɪnəri koʊd/","algorithm算法/ˈælɡərɪðəm/","hard drive硬盘/hɑːrd draɪv/","software软件/ˈsɒftwer/","is written with用...书写（被动语态表创新组合）"]
+},
+
+{
+"originE":"Elon Musk's speech at Mars Society Convention, 2026",
+"originC":"埃隆·马斯克在火星协会大会演讲, 2026",
+"sentence":"Rockets teach us the most vital lesson: to touch the stars, you must first embrace the fire, for every quantum leap begins with burning the bridges of mediocrity.",
+"chinese":"火箭教会我们最重要的课程：要触摸星辰，必先拥抱烈焰，因为每个量子飞跃都始于烧毁平庸的桥梁。",
+"add":"🚀 马斯克在SpaceX首次载人火星任务前夕的演讲金句，背景是火箭发射时燃料消耗量相当于每秒燃烧200辆跑车",
+"note":["quantum leap巨大突破/ˈkwɑːntəm liːp/","embrace the fire拥抱烈焰（隐喻修辞）","burning the bridges破釜沉舟（习语创新用法）","mediocrity平庸/ˌmiːdiˈɑːkrəti/","begin with以...开始（现在分词作状语）"]
+},
+
+{
+"originE":"Neuralink White Paper, Chapter 7",
+"originC":"Neuralink白皮书第七章",
+"sentence":"Humanity's upgrade path lies not in fearing AI's dawn, but in becoming cyborg gardeners who code empathy into algorithms and plant wisdom in silicon soil.",
+"chinese":"人类的升级之路不在于畏惧AI的黎明，而在于成为赛博园丁，将同理心编码进算法，在硅基土壤播种智慧。",
+"add":"🤖 这句出现在Neuralink首款脑机接口产品的说明书扉页，工程师们在芯片里刻了微缩版这句话",
+"note":["cyborg赛博格/ˈsaɪbɔːrɡ/","empathy同理心/ˈempəθi/","silicon soil硅基土壤（创新复合词）","lie not in不在于（否定倒装结构）","who引导定语从句修饰gardeners"]
+},
+
+{
+"originE":"Steve Jobs' lost notebook, page 47",
+"originC":"史蒂夫·乔布斯遗失的笔记本第47页",
+"sentence":"The brightest startups are forged in the crucible of failure, where broken prototypes become philosopher's stones turning setbacks into exponential growth curves.",
+"chinese":"最耀眼的初创企业诞生于失败的熔炉，在那里破碎的原型变成点金石，将挫折转化为指数增长曲线。",
+"add":"📱 据传来自乔布斯1985年离开苹果时的私人笔记，直到2025年才在旧仓库发现，立刻成为硅谷创业者的圣经",
+"note":["crucible熔炉/ˈkruːsɪbl/","prototype原型/ˈproʊtətaɪp/","philosopher's stone点金石（炼金术隐喻）","exponential growth指数增长/ˌekspəˈnenʃl ɡroʊθ/","where引导定语从句修饰crucible"]
+},
+
+{
+"originE":"The Code of the Future, MIT Press 2028",
+"originC":"《未来密码》麻省理工出版社2028",
+"sentence":"True innovation is the art of seeing Wi-Fi signals in stone age caves, of hearing quantum whispers in vinyl records, and decoding tomorrow's dreams in yesterday's mistakes.",
+"chinese":"真正的创新是在石器时代洞穴看见Wi-Fi信号的艺术，是在黑胶唱片里听见量子私语的能力，是在昨日错误中破译明日梦想的密码。",
+"add":"📡 该书作者是诺贝尔物理学奖得主，这句话被激光雕刻在火星首个人工智能实验室的入口处",
+"note":["innovation创新/ˌɪnəˈveɪʃn/","quantum whispers量子私语（矛盾修辞法）","vinyl records黑胶唱片/ˈvaɪnl ˈrekərd/","decoding破译/ˌdiːˈkoʊdɪŋ/","parallel structure平行结构（三个of短语排比）"]
+}]

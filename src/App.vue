@@ -1,11 +1,10 @@
 <script setup>
 import { ref, onMounted } from "vue";
 // import fileContent from 'D:/Documents/python_project/pytorch/read.json';
-import fileContent from './assets/read.json';
+import fileContent from "./assets/read2.json";
 
 // 包含 HTML 字符串的数组
-const text = fileContent
-
+const text = fileContent;
 
 const read = ref("");
 
@@ -26,21 +25,23 @@ onMounted(() => {
   <div class="container">
 
     <div class="sentence-box">
-      <div class="topic-text">{{read.topic}}</div>
+      <div class="originC-text">{{read.originE}}</div>
+      <div class="originC-text">{{read.originC}}</div>
       <div class="sentence-text">"{{ read.sentence }}"</div>
     </div>
 
-    <div class="translation-box">
-      <div class="translation-text" v-for="(item,index) in read.translation" :key="index">
-        <div v-if="index%2==1">{{item}}</div>
-        <div v-else class="color">{{item}}</div>
+    <div class="chinese-box">
+      <div class="chinese-text">{{read.chinese}}</div>
+    </div>
+
+    <div class="note-box">
+      <div class="note-text" v-for="(item,index) in read.note" :key="index">
+        *{{item}}
       </div>
     </div>
 
-    <div class="knowledge-box">
-      <div class="knowledge-text" v-for="(item,index) in read.knowledge" :key="index">
-        *{{item}}
-      </div>
+    <div class="add-box">
+      <div class="add-text">{{read.add}}</div>
     </div>
 
     <button class="refresh-btn" @click="refresh">✨ 灵感刷新</button>
@@ -61,13 +62,6 @@ onMounted(() => {
   padding-bottom: 0.5rem;
 }
 
-.topic-text {
-  padding-top: 1.5rem;
-  color: black;
-  font-size: 1.4rem;
-  line-height: 0.8;
-}
-
 .sentence-text {
   padding-top: 1rem;
   color: black;
@@ -76,7 +70,7 @@ onMounted(() => {
   /* padding: 0.5rem; */
 }
 
-.translation-box {
+.chinese-box {
   background: white;
   border: 1px solid #e9ecef;
   border-left: 6px solid #74b9ff;
@@ -85,7 +79,7 @@ onMounted(() => {
   padding-left: 1rem;
 }
 
-.translation-text {
+.chinese-text {
   color: #2d3436;
   line-height: 1.5;
   font-size: 1.2rem;
@@ -97,21 +91,27 @@ onMounted(() => {
   font-weight: 700;
 }
 
-.knowledge-box {
+.note-box {
   padding: 0.5rem;
-  background: #e9ecef;
+  background: white;
   border: 1px solid #e9ecef;
   border-left: 6px solid lightseagreen;
 
   padding-left: 1rem;
 }
 
-.knowledge-text {
+.note-text {
   color: #2d3436;
   font-size: 1.2rem;
-  background: #e9ecef;
   line-height: 1.2;
   padding: 0.1rem;
+}
+
+.add-box {
+  padding: 0.5rem;
+  background: white;
+  border: 1px solid #e9ecef;
+  padding-left: 1rem;
 }
 
 .refresh-btn {
