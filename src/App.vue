@@ -2,12 +2,14 @@
 import { ref, onMounted } from "vue";
 // import fileContent from 'D:/Documents/python_project/pytorch/read.json';
 import fileContent from "./assets/read2.json";
+import { InfoCircleOutlined } from "@ant-design/icons-vue";
 
 // 包含 HTML 字符串的数组
 const text = fileContent;
 
 const read = ref("");
 
+const open = ref(false);
 
 const refresh = () => {
   const randomIndex = Math.floor(Math.random() * text.length);
@@ -18,15 +20,29 @@ const refresh = () => {
 onMounted(() => {
   refresh();
 });
-
 </script>
 <template>
   <div class="container">
+    <a-modal v-model:open="open" @ok="open=false" :footer="null">
+      <div style="color: black;font-size: 1.2rem">
+        <div>声明</div>
+        <div>1. 所有内容由DeepSeek生成</div>
+        <div>2. 支持作者：</div>
+        <img src="./assets/5.jpg" alt="微信赞赏码" style="width: 80%; height: auto; display: block; margin: 0 auto;">
+      </div>
+    </a-modal>
 
+    <div class="origin-box">
+      <div>
+        <div class="origin-text">——{{read.originE}}</div>
+        <div class="origin-text">{{read.originC}}</div>
+      </div>
+      <div>
+        <InfoCircleOutlined class="info" @click="open = true" />
+      </div>
+    </div>
     <div class="sentence-box">
-      <div class="originC-text">{{read.originE}}</div>
-      <div class="originC-text">{{read.originC}}</div>
-      <div class="sentence-text">"{{ read.sentence }}"</div>
+      <div class="sentence-text color">"{{ read.sentence }}"</div>
     </div>
 
     <div class="chinese-box">
@@ -55,17 +71,45 @@ onMounted(() => {
   padding-bottom: 100px; /* 为按钮留出空间，避免内容被遮挡 */
 }
 
+.info {
+  padding-right: 0.5rem;
+  font-size: 1.3rem;
+  color: green;
+  font-weight: 700;
+}
+
+.origin-box {
+  background: white;
+  border: 1px solid #e9ecef;
+  border-bottom: white;
+  padding-top: 1.8rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 0.1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.origin-text {
+  padding-top: 0.2rem;
+  color: #2c3e50;
+  font-size: 1rem;
+  line-height: 1;
+}
+
 .sentence-box {
   background: white;
   border: 1px solid #e9ecef;
+  border-top: white;
+  /* border-left: 6px solid lightcoral; */
   border-left: 6px solid lightcoral;
-  padding-top: 0.5rem;
+  /* padding-top: 0.5rem; */
   padding-left: 1rem;
   padding-bottom: 0.5rem;
+  padding-right: 0.1rem;
 }
 
 .sentence-text {
-  padding-top: 1rem;
   color: black;
   font-size: 1.3rem;
   line-height: 1.4;
@@ -75,10 +119,10 @@ onMounted(() => {
 .chinese-box {
   background: white;
   border: 1px solid #e9ecef;
-  border-left: 6px solid #74b9ff;
-  padding-top: 0.5rem;
+  border-left: 6px solid lightpink;
   padding-bottom: 0.5rem;
   padding-left: 1rem;
+  padding-right: 0.1rem;
 }
 
 .chinese-text {
@@ -90,7 +134,6 @@ onMounted(() => {
 
 .color {
   color: #9f272c;
-  font-weight: 700;
 }
 
 .note-box {
@@ -98,22 +141,28 @@ onMounted(() => {
   background: white;
   border: 1px solid #e9ecef;
   border-left: 6px solid lightseagreen;
-
   padding-left: 1rem;
+  padding-top: 0.5rem;
 }
 
 .note-text {
   color: #2d3436;
   font-size: 1.2rem;
   line-height: 1.2;
-  padding: 0.1rem;
 }
 
 .add-box {
-  padding: 0.5rem;
   background: white;
   border: 1px solid #e9ecef;
-  padding-left: 1rem;
+  padding-left: 0.5rem;
+  padding-top: 0.3rem;
+  padding-right: 0.1rem;
+}
+
+.add-text {
+  color: #2c3e50;
+  font-size: 1rem;
+  line-height: 1.3;
 }
 
 .refresh-btn {
