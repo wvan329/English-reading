@@ -104,7 +104,7 @@ onMounted(() => {
   /* padding-top: 0.5rem; */
   padding-left: 1rem;
   padding-bottom: 0.2rem;
-  padding-right: 0.1rem;
+  padding-right: 0.2rem;
   padding-top: 2rem;
 }
 
@@ -122,7 +122,7 @@ onMounted(() => {
   border-left: 6px solid lightpink;
   padding-bottom: 1.3rem;
   padding-left: 1rem;
-  padding-right: 0.1rem;
+  padding-right: 0.2rem;
   padding-top: 1.3rem;
 }
 
@@ -139,7 +139,7 @@ onMounted(() => {
 }
 
 .note-box {
-  padding-right: 0.1rem;
+  padding-right: 0.2rem;
   background: white;
   border: 1px solid #e9ecef;
   border-left: 6px solid lightseagreen;
@@ -160,7 +160,7 @@ onMounted(() => {
   background: white;
   padding-left: 0.5rem;
   padding-top: 0.8rem;
-  padding-right: 0.1rem;
+  padding-right: 0.2rem;
   padding-bottom: 0.5rem;
 }
 
