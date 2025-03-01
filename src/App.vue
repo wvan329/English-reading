@@ -46,7 +46,7 @@ onMounted(() => {
     </div>
 
     <div class="chinese-box">
-      <div class="chinese-text">{{read.chinese}}</div>
+      <div class="chinese-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{read.chinese}}</div>
     </div>
 
     <div class="note-box">
@@ -82,7 +82,7 @@ onMounted(() => {
   background: white;
   padding-top: 3.8rem;
   padding-left: 1rem;
-  padding-bottom: 2rem;
+  padding-bottom: 0.5rem;
   padding-right: 0.1rem;
   display: flex;
   justify-content: space-between;
@@ -103,8 +103,9 @@ onMounted(() => {
   border-left: 6px solid lightcoral;
   /* padding-top: 0.5rem; */
   padding-left: 1rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.2rem;
   padding-right: 0.1rem;
+  padding-top: 2rem;
 }
 
 .sentence-text {
@@ -118,10 +119,10 @@ onMounted(() => {
   background: white;
   border: 1px solid #e9ecef;
   border-left: 6px solid lightpink;
-  padding-bottom: 0.5rem;
+  padding-bottom: 1.3rem;
   padding-left: 1rem;
   padding-right: 0.1rem;
-  padding-top: 0.3rem;
+  padding-top: 1.3rem;
 }
 
 .chinese-text {
@@ -140,7 +141,8 @@ onMounted(() => {
   border: 1px solid #e9ecef;
   border-left: 6px solid lightseagreen;
   padding-left: 1rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 1.3rem;
+  padding-top: 1rem;
 }
 
 .note-text {
@@ -153,7 +155,7 @@ onMounted(() => {
 .add-box {
   background: white;
   padding-left: 0.5rem;
-  padding-top: 0.3rem;
+  padding-top: 0.8rem;
   padding-right: 0.1rem;
   padding-bottom: 0.5rem;
 }
