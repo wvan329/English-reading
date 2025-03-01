@@ -46,7 +46,7 @@ onMounted(() => {
     </div>
 
     <div class="chinese-box">
-      <div class="chinese-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{read.chinese}}</div>
+      <div class="chinese-text">{{read.chinese}}</div>
     </div>
 
     <div class="note-box">
@@ -113,6 +113,7 @@ onMounted(() => {
   font-size: 1.3rem;
   line-height: 1.4;
   /* padding: 0.5rem; */
+  text-align: justify; 
 }
 
 .chinese-box {
@@ -129,6 +130,8 @@ onMounted(() => {
   color: #2d3436;
   line-height: 1.4;
   font-size: 1.2rem;
+  text-indent: 2.4rem;
+  text-align: justify; 
 }
 
 .color {
@@ -150,6 +153,7 @@ onMounted(() => {
   font-size: 1.2rem;
   line-height: 1;
   padding-top: 0.3rem;
+  text-align: justify; 
 }
 
 .add-box {
@@ -164,6 +168,7 @@ onMounted(() => {
   color: #2c3e50;
   font-size: 1.1rem;
   line-height: 1.4;
+  text-align: justify; 
 }
 
 .refresh-btn {
