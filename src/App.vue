@@ -80,11 +80,9 @@ onMounted(() => {
 
 .origin-box {
   background: white;
-  border: 1px solid #e9ecef;
-  border-bottom: white;
   padding-top: 3.8rem;
   padding-left: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
   padding-right: 0.1rem;
   display: flex;
   justify-content: space-between;
@@ -154,7 +152,6 @@ onMounted(() => {
 
 .add-box {
   background: white;
-  border: 1px solid #e9ecef;
   padding-left: 0.5rem;
   padding-top: 0.3rem;
   padding-right: 0.1rem;
