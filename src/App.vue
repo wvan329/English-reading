@@ -27,7 +27,7 @@ onMounted(() => {
       <div style="color: black;font-size: 1.2rem">
         <div>*注：</div>
         <div>1. 所有内容由DeepSeek生成（共 {{text.length}} 条）</div>
-        <div>2. 支持作者（微信扫码）：</div>
+        <div>2. 支持作者：</div>
         <img src="./assets/5.jpg" alt="微信赞赏码" style="width: 80%; height: auto; display: block; margin: 0 auto;">
       </div>
     </a-modal>
