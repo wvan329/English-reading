@@ -25,9 +25,9 @@ onMounted(() => {
   <div class="container">
     <a-modal v-model:open="open" @ok="open=false" :footer="null">
       <div style="color: black;font-size: 1.2rem">
-        <div>声明</div>
-        <div>1. 所有内容由DeepSeek生成</div>
-        <div>2. 支持作者：</div>
+        <div>*注：</div>
+        <div>1. 所有内容由DeepSeek生成（共 {{text.length}} 条）</div>
+        <div>2. 支持作者（微信扫码）：</div>
         <img src="./assets/5.jpg" alt="微信赞赏码" style="width: 80%; height: auto; display: block; margin: 0 auto;">
       </div>
     </a-modal>
@@ -82,7 +82,7 @@ onMounted(() => {
   background: white;
   border: 1px solid #e9ecef;
   border-bottom: white;
-  padding-top: 1.8rem;
+  padding-top: 3.8rem;
   padding-left: 1rem;
   padding-bottom: 1rem;
   padding-right: 0.1rem;
@@ -123,13 +123,13 @@ onMounted(() => {
   padding-bottom: 0.5rem;
   padding-left: 1rem;
   padding-right: 0.1rem;
+  padding-top: 0.3rem;
 }
 
 .chinese-text {
   color: #2d3436;
-  line-height: 1.5;
+  line-height: 1.4;
   font-size: 1.2rem;
-  padding-right: 0.2rem;
 }
 
 .color {
@@ -137,18 +137,19 @@ onMounted(() => {
 }
 
 .note-box {
-  padding: 0.5rem;
+  padding-right: 0.1rem;
   background: white;
   border: 1px solid #e9ecef;
   border-left: 6px solid lightseagreen;
   padding-left: 1rem;
-  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .note-text {
   color: #2d3436;
   font-size: 1.2rem;
-  line-height: 1.2;
+  line-height: 1;
+  padding-top: 0.3rem;
 }
 
 .add-box {
@@ -157,12 +158,13 @@ onMounted(() => {
   padding-left: 0.5rem;
   padding-top: 0.3rem;
   padding-right: 0.1rem;
+  padding-bottom: 0.5rem;
 }
 
 .add-text {
   color: #2c3e50;
-  font-size: 1rem;
-  line-height: 1.3;
+  font-size: 1.1rem;
+  line-height: 1.4;
 }
 
 .refresh-btn {
